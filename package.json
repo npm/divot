@@ -1,5 +1,5 @@
 {
-  "name": "divot",
+  "name": "@npmcorp/divot",
   "version": "1.0.0",
   "description": "Pivotal Tracker integration for a deployment script. pivot + deploy = divot, get it?",
   "main": "index.js",

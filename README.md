@@ -4,6 +4,8 @@ Pivotal Tracker integration for a deployment script. pivot + deploy = divot, get
 
 ## Usage
 
+`npm install -g @npmcorp/divot`
+
 Set the following environment variable:
 
 * `TRACKER_TOKEN`: your Tracker API token
@@ -11,4 +13,4 @@ Set the following environment variable:
 
 `cd` to your deployment directory, with git information.
 
-run `index.js <tracker-project-id>` (or set the env var)
+run `divot <tracker-project-id>` Or set the env var and run it with no arguments: `divot`.
